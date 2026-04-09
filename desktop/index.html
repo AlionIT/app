@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>AlionIT Desktop</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">AlionIT Concept Lab</p>
+        <h1>Три схемы для онлайн-школы и сообщества AlionIT.</h1>
+        <p class="lead">
+          Пока всё бесплатно и основной контент живёт на YouTube. Значит, сайт
+          должен не дублировать видео, а собирать вокруг них понятную систему.
+          Ниже три разные модели главной структуры, которые можно сразу
+          сравнить внутри приложения.
+        </p>
+        <div class="hero-meta">
+          <div class="meta-pill">
+            <span class="meta-label">Фокус</span>
+            <strong>онлайн-школа + сообщество + YouTube</strong>
+          </div>
+          <div class="meta-pill">
+            <span class="meta-label">Режим</span>
+            <strong>пока полностью бесплатно</strong>
+          </div>
+          <div class="meta-pill">
+            <span class="meta-label">Runtime</span>
+            <strong id="runtimeBadge">Loading runtime information...</strong>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="selector-block">
+          <div class="selector-header">
+            <p class="section-kicker">Выберите направление</p>
+            <h2>С центральной страницы можно перейти в любой вариант.</h2>
+          </div>
+
+          <div class="selector-grid">
+            <a class="concept-card is-active" data-concept-link href="#community-first">
+              <span class="concept-index">01</span>
+              <h3>Community First</h3>
+              <p>
+                AlionIT как вход в сообщество: YouTube, живые эфиры, обсуждения,
+                быстрый старт для новичка.
+              </p>
+              <span class="concept-cta">Открыть схему</span>
+            </a>
+
+            <a class="concept-card" data-concept-link href="#learning-map">
+              <span class="concept-index">02</span>
+              <h3>Learning Map</h3>
+              <p>
+                AlionIT как школа с маршрутами: человеку сразу понятно, что
+                смотреть, в какой последовательности и как расти.
+              </p>
+              <span class="concept-cta">Открыть схему</span>
+            </a>
+
+            <a class="concept-card" data-concept-link href="#media-hub">
+              <span class="concept-index">03</span>
+              <h3>Media Hub</h3>
+              <p>
+                AlionIT как медиа-платформа автора: в центре новые выпуски,
+                плейлисты, заметки и регулярный поток контента.
+              </p>
+              <span class="concept-cta">Открыть схему</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="concept-stage">
+          <article class="concept-section is-current" id="community-first" data-concept-section>
+            <div class="concept-copy">
+              <p class="section-kicker">Схема 1</p>
+              <h2>Community First</h2>
+              <p class="concept-lead">
+                Здесь AlionIT ощущается как живое бесплатное сообщество вокруг
+                видео, эфиров и общения. Хорошо подходит, если сначала хочется
+                собрать аудиторию и регулярное вовлечение.
+              </p>
+              <div class="signal-grid">
+                <div class="signal-card">
+                  <span class="signal-label">Сильная сторона</span>
+                  <strong>Люди быстрее чувствуют, что они внутри движения, а не просто на сайте.</strong>
+                </div>
+                <div class="signal-card">
+                  <span class="signal-label">Риск</span>
+                  <strong>Если мало активностей, проект может выглядеть как каталог ссылок.</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="wireframe">
+              <div class="wireframe-bar">
+                <span>Home</span>
+                <span>Start Here</span>
+                <span>Community</span>
+                <span>Video Hub</span>
+                <span>Events</span>
+                <span>About</span>
+                <span>FAQ</span>
+              </div>
+              <div class="wireframe-hero tone-orange">
+                <div>
+                  <p class="wireframe-tag">Главный экран</p>
+                  <h3>Вход в AlionIT через сообщество и видео.</h3>
+                </div>
+                <div class="mini-stack">
+                  <span>Join community</span>
+                  <span>Watch latest stream</span>
+                </div>
+              </div>
+              <div class="wireframe-grid">
+                <section class="wf-card wf-tall">
+                  <p class="wf-label">Start here</p>
+                  <h4>Новый участник</h4>
+                  <ul>
+                    <li>Что смотреть первым</li>
+                    <li>Какие плейлисты нужны новичку</li>
+                    <li>Как присоединиться к сообществу</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">Community pulse</p>
+                  <h4>Что сейчас происходит</h4>
+                  <ul>
+                    <li>ближайший эфир</li>
+                    <li>обсуждение недели</li>
+                    <li>новые участники</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">YouTube</p>
+                  <h4>Свежие видео</h4>
+                  <ul>
+                    <li>последний выпуск</li>
+                    <li>выбранный плейлист</li>
+                    <li>подборка по теме</li>
+                  </ul>
+                </section>
+                <section class="wf-card wf-wide">
+                  <p class="wf-label">Events</p>
+                  <h4>Календарь движухи</h4>
+                  <ul>
+                    <li>стримы</li>
+                    <li>разборы</li>
+                    <li>открытые встречи</li>
+                    <li>челленджи сообщества</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+
+          <article class="concept-section" id="learning-map" data-concept-section>
+            <div class="concept-copy">
+              <p class="section-kicker">Схема 2</p>
+              <h2>Learning Map</h2>
+              <p class="concept-lead">
+                Здесь AlionIT выглядит как настоящая школа с понятными
+                маршрутами. YouTube остаётся базой контента, но сайт собирает
+                его в логичный порядок и помогает человеку не потеряться.
+              </p>
+              <div class="signal-grid">
+                <div class="signal-card">
+                  <span class="signal-label">Сильная сторона</span>
+                  <strong>Сразу появляется ощущение системы и образовательной ценности.</strong>
+                </div>
+                <div class="signal-card">
+                  <span class="signal-label">Риск</span>
+                  <strong>Нужно поддерживать маршруты актуальными, иначе структура быстро стареет.</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="wireframe">
+              <div class="wireframe-bar">
+                <span>Home</span>
+                <span>Start Here</span>
+                <span>Learning Paths</span>
+                <span>Video Library</span>
+                <span>Practice</span>
+                <span>Community</span>
+                <span>FAQ</span>
+              </div>
+              <div class="wireframe-hero tone-green">
+                <div>
+                  <p class="wireframe-tag">Главный экран</p>
+                  <h3>Учёба по шагам, а не просто поток роликов.</h3>
+                </div>
+                <div class="mini-stack">
+                  <span>Choose a path</span>
+                  <span>Complete weekly mission</span>
+                </div>
+              </div>
+              <div class="wireframe-grid">
+                <section class="wf-card wf-tall">
+                  <p class="wf-label">Learning paths</p>
+                  <h4>Траектории</h4>
+                  <ul>
+                    <li>войти в IT с нуля</li>
+                    <li>освоить конкретное направление</li>
+                    <li>собрать первое портфолио</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">Practice</p>
+                  <h4>Практика недели</h4>
+                  <ul>
+                    <li>задание после видео</li>
+                    <li>чеклист результата</li>
+                    <li>что отправить в сообщество</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">Library</p>
+                  <h4>Каталог видео</h4>
+                  <ul>
+                    <li>по уровням</li>
+                    <li>по темам</li>
+                    <li>по формату</li>
+                  </ul>
+                </section>
+                <section class="wf-card wf-wide">
+                  <p class="wf-label">Starter lane</p>
+                  <h4>С чего начать прямо сегодня</h4>
+                  <ul>
+                    <li>урок 1</li>
+                    <li>урок 2</li>
+                    <li>простая практика</li>
+                    <li>вопрос в сообщество</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+
+          <article class="concept-section" id="media-hub" data-concept-section>
+            <div class="concept-copy">
+              <p class="section-kicker">Схема 3</p>
+              <h2>Media Hub</h2>
+              <p class="concept-lead">
+                Здесь AlionIT подаётся как сильный авторский медиа-проект.
+                Главная задача сайта: собрать выпуски, плейлисты, заметки и
+                эфиры в один ритмичный поток вокруг YouTube-канала.
+              </p>
+              <div class="signal-grid">
+                <div class="signal-card">
+                  <span class="signal-label">Сильная сторона</span>
+                  <strong>Легче вести регулярно: новый ролик, новая заметка, новый эфир.</strong>
+                </div>
+                <div class="signal-card">
+                  <span class="signal-label">Риск</span>
+                  <strong>Меньше ощущения школы, если не добавить отдельный блок "с чего начать".</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="wireframe">
+              <div class="wireframe-bar">
+                <span>Home</span>
+                <span>Latest</span>
+                <span>Playlists</span>
+                <span>Notes</span>
+                <span>Live</span>
+                <span>Community</span>
+                <span>About</span>
+              </div>
+              <div class="wireframe-hero tone-blue">
+                <div>
+                  <p class="wireframe-tag">Главный экран</p>
+                  <h3>AlionIT как медиа-центр вокруг канала и живого контента.</h3>
+                </div>
+                <div class="mini-stack">
+                  <span>Watch latest release</span>
+                  <span>Open playlist archive</span>
+                </div>
+              </div>
+              <div class="wireframe-grid">
+                <section class="wf-card wf-tall">
+                  <p class="wf-label">Latest</p>
+                  <h4>Последние выпуски</h4>
+                  <ul>
+                    <li>новое видео</li>
+                    <li>новый short</li>
+                    <li>обновлённый плейлист</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">Notes</p>
+                  <h4>Короткие заметки</h4>
+                  <ul>
+                    <li>мысли по теме</li>
+                    <li>ссылки и инструменты</li>
+                    <li>тезисы после стрима</li>
+                  </ul>
+                </section>
+                <section class="wf-card">
+                  <p class="wf-label">Live</p>
+                  <h4>Эфиры</h4>
+                  <ul>
+                    <li>расписание</li>
+                    <li>записи</li>
+                    <li>вопросы на следующий эфир</li>
+                  </ul>
+                </section>
+                <section class="wf-card wf-wide">
+                  <p class="wf-label">Community bridge</p>
+                  <h4>Переход из зрителя в участника</h4>
+                  <ul>
+                    <li>вступить в комьюнити</li>
+                    <li>посмотреть подборку для старта</li>
+                    <li>подписаться на анонсы</li>
+                    <li>отправить вопрос для выпуска</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="summary-strip">
+          <div class="summary-card">
+            <span class="summary-label">Если хотите атмосферу движения</span>
+            <strong>берите Community First</strong>
+          </div>
+          <div class="summary-card">
+            <span class="summary-label">Если хотите ощущение школы</span>
+            <strong>берите Learning Map</strong>
+          </div>
+          <div class="summary-card">
+            <span class="summary-label">Если главное канал и контент</span>
+            <strong>берите Media Hub</strong>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

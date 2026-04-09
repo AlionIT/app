@@ -1,0 +1,23 @@
+{
+  "name": "alionit-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo scaffold with a desktop Electron target.",
+  "workspaces": [
+    "desktop"
+  ],
+  "scripts": {
+    "start": "node scripts/run-target.js start",
+    "dev": "node scripts/run-target.js dev",
+    "check": "node scripts/run-target.js check",
+    "pack": "node scripts/run-target.js pack",
+    "dist": "node scripts/run-target.js dist",
+    "prod:smoke": "node scripts/run-target.js prod:smoke"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "chokidar": "^5.0.0"
+  }
+}
