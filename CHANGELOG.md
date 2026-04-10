@@ -1,14 +1,14 @@
 # CHANGELOG
 
-Все заметные изменения проекта фиксируются в этом файле.
+All notable changes to this project are documented in this file.
 
-Файл обновляется не на каждом коммите.
-Обычно изменения собираются в момент подготовки версии и тега.
+This file is not updated on every commit.
+Changes are usually collected when preparing a version and tag.
 
 ## [Unreleased]
 
-### Добавлено
+### Added
 
-### Изменено
+### Changed
 
-### Исправлено
+### Fixed
