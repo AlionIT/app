@@ -1,0 +1,11 @@
+{
+  "name": "@alionit/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static website for AlionIT Business School.",
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "check": "node scripts/check.js",
+    "build": "node scripts/build.js"
+  }
+}

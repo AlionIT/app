@@ -1,71 +1,7 @@
-# Dependencies
 node_modules/
-
-# Build outputs
 dist/
-build/
-out/
-release/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# Temporary files and caches
-tmp/
 temp/
-.tmp/
-.cache/
-.npm/
-.pnpm-store/
-.parcel-cache/
-.electron-builder/
-.yarn/cache/
-.yarn/unplugged/
-.yarn/build-state.yml
-.yarn/install-state.gz
-.eslintcache
-.stylelintcache
-.turbo/
-.vite/
-.next/
-.nuxt/
-.svelte-kit/
-
-# Environment files
 .env
-.env.*
-!.env.example
-!.env.sample
-
-# Test and coverage artifacts
-coverage/
-.nyc_output/
-test-results/
-playwright-report/
-blob-report/
-
-# Electron and packaged app artifacts
-*.blockmap
-*.dmg
-*.AppImage
-*.deb
-*.rpm
-*.snap
-*.msi
-*.nsis.7z
-
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Editor and workspace files
-.vscode/
-.idea/
-*.code-workspace
+.env.local
+npm-debug.log*
+*.log

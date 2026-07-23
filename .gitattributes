@@ -1,0 +1,3 @@
+# Normalize text files to LF in the repository.
+# This keeps diffs stable across Windows and Unix tools.
+* text=auto eol=lf

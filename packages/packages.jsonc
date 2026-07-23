@@ -1,0 +1,26 @@
+{
+  // Local package supply layer for the AlionIT website.
+  // See packages/README.md for the shared MyIdeas package standard.
+  "schemaVersion": 1,
+  "defaults": {
+    "updateMode": "manual",
+    "versionPolicy": "exact",
+    "onMismatch": "fail",
+    "exclude": [
+      "node_modules/**",
+      ".git/**",
+      "temp-data/**",
+      "_temp/**"
+    ]
+  },
+  "packages": {
+    "safe-file-writer": {
+      "target": "safe-file-writer",
+      "updateMode": "manual",
+      "origin": "packagelab-stable",
+      "source": "W:/MyIdeas/AlionIT/package-lab/_stable/safe-file-writer",
+      "versionPolicy": "track",
+      "onMismatch": "fail"
+    }
+  }
+}

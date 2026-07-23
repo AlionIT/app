@@ -13,22 +13,13 @@ Changes are usually collected when preparing a version and tag.
 
 ### Fixed
 
-## [0.1.0] - 2026-04-10
+## [v0.1.0] - 2026-07-06
 
 ### Added
-
-- Set up the initial AlionIT npm workspace monorepo with a root target router.
-- Added the Electron desktop target used as the current prototype shell for the future AlionIT site.
-- Added root commands for `start`, `dev`, `check`, `pack`, `dist`, and `prod:smoke`.
-- Added explicit target selection for `desktop` through positional arguments and `--target`.
-- Added reserved placeholder targets for `web`, `mobile`, and `server`.
-- Added a Windows application icon for the desktop app in development and packaged builds.
-- Added desktop smoke-mode support for automated launch checks.
-- Added a desktop live-reload development runner for renderer reloads and main-process restarts.
-- Added baseline project documentation, including README, npm workflow, start guide, Electron icon guide, live-reload guide, and project-start templates.
-- Added the initial project `.gitignore` and npm lockfile.
+- Created a clean standard MyIdeas app structure with a single `apps/web` target.
+- Added the first static AlionIT Business School landing page.
+- Added root target routing for `start`, `dev`, `check`, and `build`.
+- Added the standard local package layer with an empty package registry.
 
 ### Changed
-
-- Standardized the project workflow around commits, changelog preparation, versions, and annotated release tags.
-- Standardized `CHANGELOG.md` and Git commit messages to use English.
+- Removed the legacy desktop, mobile, server, root web, copied docs, and unused environment scaffolding.

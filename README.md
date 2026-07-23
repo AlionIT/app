@@ -1,89 +1,97 @@
 # AlionIT
 
 Краткое описание:
-AlionIT — проект онлайн бизнес-школы и стартап-сообщества. На текущем этапе репозиторий содержит монорепозиторий с desktop-прототипом на Electron, который используется как рабочая оболочка будущего сайта.
+статический web-сайт AlionIT Business School.
 
 ## Статус
 
-Прототип в активной разработке.
+Проект приведён к стандартной app-структуре MyIdeas.
 
-Текущий рабочий target по умолчанию:
+Текущий runnable target:
 
-- `desktop`
+- `web`
+
+Desktop, mobile и server target-ы пока не созданы.
 
 ## Быстрый старт
 
-Все команды запускаются из корня репозитория:
+Все команды запускаются из корня проекта:
 
 ```bash
 npm install
-npm start
+npm run start -- web
 ```
 
 ## Основные команды
 
-- `npm install`
-  Устанавливает зависимости проекта.
+Набор команд соответствует `scripts` в корневом `package.json`.
 
-- `npm start`
-  Запускает target по умолчанию. Сейчас это `desktop`.
+- `npm run start -- web`
+  Запускает web-target локально.
 
-- `npm start -- desktop`
-  Явно запускает desktop-target.
+- `npm run dev -- web`
+  Явный dev-запуск web-target-а.
 
-- `npm start -- --target desktop`
-  Именованная форма выбора desktop-target.
+- `npm run check -- web`
+  Проверяет статический web-target.
 
-- `npm run dev -- desktop`
-  Явная dev-команда для desktop-target.
-
-- `npm run check -- desktop`
-  Проверяет desktop-часть проекта.
-
-- `npm run pack`
-  Собирает локальную упакованную desktop-версию для проверки.
-
-- `npm run dist`
-  Собирает финальный Windows portable-пакет.
-
-- `npm start -- web`
-- `npm start -- mobile`
-- `npm start -- server`
-  Если эти target-ы ещё не настроены, они возвращают понятную заглушку.
+- `npm run build -- web`
+  Копирует статические файлы в `dist/web`.
 
 ## Структура проекта
 
-- `desktop/`
-  Основной desktop-target на Electron. Сейчас используется как прототип интерфейса будущего сайта AlionIT.
+`apps/` собирает все варианты приложения внутри проекта. Сейчас runnable target
+один: `web`.
 
-- `web/`
-  Направление для будущей web-части проекта.
+```text
+apps/
+  web/
+packages/
+  README.md
+  packages.jsonc
+scripts/
+  run.mjs
+  targets/
+    index.mjs
+    web.mjs
+docs/
+  start.md
+data/
+  .gitkeep
+dist/
+  web/
+temp/
 
-- `mobile/`
-  Направление для будущей mobile-части проекта.
+README.md
+CHANGELOG.md
+VERSIONS.jsonc
+package.json
+package-lock.json
+.gitignore
+.gitattributes
+```
 
-- `server/`
-  Направление для backend / service layer.
+`data/` пока не содержит проектных данных и удерживается через `.gitkeep`.
+`dist/` используется только для generated build artifacts.
 
-- `scripts/`
-  Вспомогательные скрипты проекта, включая маршрутизатор target-ов.
+## Версии
 
-- `docs/`
-  Документация, стандарты запуска и внутренние правила работы.
+Правила ведения версий находятся в [VERSIONS.jsonc](./VERSIONS.jsonc). В README
+схема версий не дублируется.
 
 ## Документация
 
-- [Workflow](./docs/workflow.md)
-- [NPM workflow](./docs/npm.md)
-- [Start](./docs/start.md)
-- [Electron icon for npm start](./docs/electron%20icon%20npm%20start.md)
-- [Live reload](./docs/live-reload.md)
-- [Start new project](./docs/start%20new%20project.md)
+- [Общие правила MyIdeas](../../_docs/README.md)
+- [Workflow](../../_docs/workflow.md)
+- [New Project](../../_docs/new project/start new project.md)
+- [NPM Workflow](../../_docs/new project/npm.md)
+- [App Packages](../../_docs/new project/app-packages.md)
+- [README Template](../../_docs/new project/templates/readme.md)
+- [Start notes](./docs/start.md)
+- [Local package layer](./packages/README.md)
 - [Changelog](./CHANGELOG.md)
 
 ## Примечания
 
-- Проект развивается как бизнес-школа и сообщество для стартапов, а не как отдельная IT-школа.
-- IT, AI, продуктовые и цифровые инструменты рассматриваются как часть стартап-практики.
-- Desktop-приложение запускается через npm-скрипты из корня монорепозитория.
-- Для smoke-проверки desktop-запуска можно выставить `ALIONIT_SMOKE=1`, чтобы приложение автоматически закрылось после успешного старта.
+- Повседневная разработка идёт через `npm run dev -- web`.
+- `dist/web` создаётся командами сборки и не является исходным кодом.

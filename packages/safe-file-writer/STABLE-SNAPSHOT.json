@@ -1,0 +1,9 @@
+{
+  "package": "safe-file-writer",
+  "publishedAt": "2026-07-15T23:42:20.584Z",
+  "source": "safe-file-writer",
+  "version": "0.1.0",
+  "mode": "copy",
+  "preserveOnImport": [],
+  "contentHash": "sha256:c1eddae82aa78f0cb1e824e584ad70993257937f3f1b5d60e2f2532a2fe252be"
+}
