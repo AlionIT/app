@@ -79,6 +79,8 @@ package-lock.json
 Правила ведения версий находятся в [VERSIONS.jsonc](./VERSIONS.jsonc). В README
 схема версий не дублируется.
 
+[CHANGELOG.md](./CHANGELOG.md) - журнал изменений по release-ам в VERSIONS.jsonc.
+
 ## Документация
 
 - [Общие правила MyIdeas](../../_docs/README.md)

@@ -1,5 +1,7 @@
 # CHANGELOG
 
+CHANGELOG.md - журнал изменений по release-ам в VERSIONS.jsonc.
+
 All notable changes to this project are documented in this file.
 
 This file is not updated on every commit.
