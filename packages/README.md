@@ -1,15 +1,13 @@
 # Packages
 
-> Канонический источник этого стандарта:
-> `W:\MyIdeas\_docs\new project\app-packages.md`.
-> Файлы `app\packages\README.md` в стандартных app-проектах MyIdeas являются
-> полными копиями этого документа. Не правьте проектную копию отдельно: если
-> нужно изменить правила работы с пакетами, измените центральный документ и
-> синхронизируйте копии во всех проектах.
-
-Если проект переезжает из MyIdeas и начинает жить самостоятельно, эта копия
-становится его локальным стандартом. Пока проект находится в MyIdeas, действует
-единый стандарт выше.
+> Правила package-слоя стандартного проекта живут в PackageLab:
+> - `W:\MyIdeas\AlionIT\package-lab\README.md`;
+> - `W:\MyIdeas\AlionIT\package-lab\_docs\consumers\package-installation.md`;
+> - `W:\MyIdeas\AlionIT\package-lab\_docs\consumers\package-integration.md`;
+> - `W:\MyIdeas\AlionIT\package-lab\_docs\developers\project-local-packages.md`.
+>
+> Этот файл описывает локальный package-слой проекта и не является копией
+> старого общего регламента MyIdeas.
 
 ## Локальный слой поставки пакетов
 

@@ -5,3 +5,6 @@ temp/
 .env.local
 npm-debug.log*
 *.log
+*.code-workspace
+desktop.ini
+Desktop.ini

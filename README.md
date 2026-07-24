@@ -79,7 +79,7 @@ package-lock.json
 Правила ведения версий находятся в [VERSIONS.jsonc](./VERSIONS.jsonc). В README
 схема версий не дублируется.
 
-[CHANGELOG.md](./CHANGELOG.md) - журнал изменений по release-ам в VERSIONS.jsonc.
+[CHANGELOG.md](./CHANGELOG.md) - журнал изменений по release-ам в `VERSIONS.jsonc`.
 
 ## Документация
 
@@ -87,8 +87,9 @@ package-lock.json
 - [Workflow](../../_docs/workflow.md)
 - [New Project](../../_docs/new project/start new project.md)
 - [NPM Workflow](../../_docs/new project/npm.md)
-- [App Packages](../../_docs/new project/app-packages.md)
-- [README Template](../../_docs/new project/templates/readme.md)
+- [PackageLab и правила пакетов](../../AlionIT/package-lab/README.md)
+- [Интеграция пакетов](../../AlionIT/package-lab/_docs/consumers/package-integration.md)
+- [README Template](../../_docs/new project/templates/_readme.md)
 - [Start notes](./docs/start.md)
 - [Local package layer](./packages/README.md)
 - [Changelog](./CHANGELOG.md)
