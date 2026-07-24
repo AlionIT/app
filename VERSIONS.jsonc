@@ -101,7 +101,7 @@
      Скрипт синхронизирует технические версии и печатает в терминале готовые
      Git-команды для release commit, Git tag и push.
 
-     node W:\MyIdeas\_shared-scripts\prepare-standard-project-release.mjs --project W:\MyIdeas\AlionIT\app
+     node W:\MyIdeas\_scripts\prepare-standard-project-release.mjs --project W:\MyIdeas\AlionIT\app
 
   6. Пользователь копирует напечатанные команды из терминала, проверяет их и
      сам выполняет.
