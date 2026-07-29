@@ -4,6 +4,7 @@
   "private": true,
   "description": "Static website for AlionIT Business School.",
   "scripts": {
+    "start": "npm run dev",
     "dev": "node scripts/serve.js",
     "check": "node scripts/check.js",
     "build": "node scripts/build.js"

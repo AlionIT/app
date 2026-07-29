@@ -7,10 +7,10 @@
     "apps/web"
   ],
   "scripts": {
-    "start": "node scripts/run.mjs start",
-    "dev": "node scripts/run.mjs dev",
-    "check": "node scripts/run.mjs check",
-    "build": "node scripts/run.mjs build"
+    "start": "node W:\\MyIdeas\\_scripts\\run-project.mjs start",
+    "dev": "node W:\\MyIdeas\\_scripts\\run-project.mjs dev",
+    "check": "node W:\\MyIdeas\\_scripts\\run-project.mjs check",
+    "build": "node W:\\MyIdeas\\_scripts\\run-project.mjs build"
   },
   "engines": {
     "node": ">=20"
