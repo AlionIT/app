@@ -47,7 +47,7 @@
   2. Изменить только те targets, которые реально будут перевыпущены.
   3. Запустить:
 
-     node W:\MyIdeas\_scripts\prepare-standard-project-release.mjs --project W:\MyIdeas\AlionIT\app
+     node W:\MyIdeas\_scripts\release-engine.mjs --standard-project W:\MyIdeas\AlionIT\app
 
   4. Скрипт сам подготовит CHANGELOG.md через агента, проверит результат,
      синхронизирует технические версии и напечатает Git-команды.
