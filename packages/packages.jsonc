@@ -13,14 +13,5 @@
       "_temp/**"
     ]
   },
-  "packages": {
-    "safe-file-writer": {
-      "target": "safe-file-writer",
-      "updateMode": "manual",
-      "origin": "packagelab-stable",
-      "source": "W:/MyIdeas/AlionIT/package-lab/_stable/safe-file-writer",
-      "versionPolicy": "track",
-      "onMismatch": "fail"
-    }
-  }
+  "packages": {}
 }

@@ -1,7 +1,0 @@
-0.1.0
-
-# Главный источник версии пакета safe-file-writer.
-# Если меняешь версию в первой строке, после сохранения запусти из корня PackageLab:
-#   npm run package:version:sync -- safe-file-writer
-# Скрипт: _scripts/sync-package-version.mjs
-# Он обновит package.json и config.js или settings/config.js.
