@@ -33,15 +33,29 @@
 
 
 
-##
-
-## [v0.1.0] - 2026-07-06
+## [Unreleased]
 
 ### Added
-- Created a clean standard MyIdeas app structure with a single `apps/web` target.
-- Added the first static AlionIT Business School landing page.
-- Added root target routing for `start`, `dev`, `check`, and `build`.
-- Added the standard local package layer with an empty package registry.
 
 ### Changed
-- Removed the legacy desktop, mobile, server, root web, copied docs, and unused environment scaffolding.
+
+### Fixed
+
+
+
+## [0.1.0] - 2026-07-06
+
+### Added
+
+- Создана чистая стандартная структура MyIdeas app с единственным target-ом
+  `apps/web`.
+- Добавлена первая статическая landing page AlionIT Business School.
+- Добавлена корневая маршрутизация target-ов для `start`, `dev`, `check` и `build`.
+- Добавлен стандартный локальный слой пакетов с пустым package registry.
+
+### Changed
+
+- Удалены legacy desktop, mobile, server и root web, скопированная документация
+  и неиспользуемый environment scaffolding.
+
+### Fixed
